@@ -8,6 +8,7 @@
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <script src="https://kit.fontawesome.com/67ddddbd79.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
@@ -67,6 +68,8 @@
         </div>
     </div>
 
+            <!-- -------skills--------- -->
+
    <div class="skills">
     <div class="tab-titles">
         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -97,6 +100,56 @@
     </div>
 
 </div>
+
+<!-- ---------------Projects------------ -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Event-proposal.png">
+                <div class="layer">
+                    <h3>Event Proposal App</h3>
+                    <p>Build an Event Proposal application where Vendor can create, edit, and delete proposals, and users can see and select them.
+                        Technologies Used: ReactJs, NodeJs, Express,MongoDB,JWT Authentication,Cloudinary,HTML,CSS etc.
+                        
+                        </p>
+                    <a href="https://event-proposal-frontend.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/instaclone.png">
+                <div class="layer">
+                    <h3>Instagram Clone</h3>
+                    <p>The Instagram Clone App is a web application.The app allows
+                        users to register, log in, and authenticate themselves.
+                        Users can create personalized profiles, upload and share photos, and interact
+                        with other users' posts . The app allows users to like , and comment in posts.
+                        Technologies Used: ReactJs, NodeJs, Express,MongoDB,JWT
+                        Authentication,Cloudinary,HTML,CSS , Materialize css etc.
+                        
+                        </p>
+                    <a href="https://instaclone-obaa.onrender.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/snapshot.png">
+                <div class="layer">
+                    <h3>SnapShot App</h3>
+                    <p>Here is SNAPSHOT app which creates a simple gallery where you can search the photos by keywords, and change the category based on given options such as Mountain, Beaches, Birds, and Food. Once you hover over the images, you will get the zoom-in images.
+
+                    </p>
+                    <a href="https://snapshot-gmvf.onrender.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+
+
+
 
 <script>
     let tablinks = document.getElementsByClassName("tab-links");
