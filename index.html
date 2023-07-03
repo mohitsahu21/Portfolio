@@ -15,13 +15,15 @@
         <div class="container">
             <nav>
                 <h3 class="font-effect-neon">Portfolio.</h3>
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text-container">
                 <div class="header-text">
@@ -53,7 +55,7 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1> <br>
-                    <p>I have completed 6 months of training as a Full stack Developer from 10x Academy in which i learned Javascript,HTML,CSS,Bootstrap,ReactJS,NodeJS,ExpressJS,MongoDB. After completion of training i had done some projects.</p> <br>
+                    <p>I have completed 6 months of training as a Full stack Developer from 10x Academy in which i learned Javascript,HTML,CSS,Bootstrap,ReactJS,NodeJS, <br>ExpressJS,MongoDB. After completion of training i had done some projects.</p> <br>
                     <p>I have 6 months of experience in Designing web Applications and Currently i am Looking for MERN Stack Developer Job Role.</p><br>
                     <ul>
                         <li>Proficiency with fundamental front-end languages such as HTML, CSS, and JavaScript.</li><br>
@@ -197,8 +199,16 @@
     document.getElementById(tabname).classList.add("active-tab")
     }
  
+</script>
 
-    
+<script>
+    let sidemenu = document.getElementById("sidemenu");
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
 </script>
     
 </body>

@@ -332,3 +332,124 @@ form .btn2{
     margin-top: 20px;
 
 }
+
+/* ------------css for small screens---------- */
+
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+   .header-text-container{
+    display: block;
+   }
+   .header-text{
+    font-size: 16px;
+    margin-bottom: 50px;
+   }
+   .header-text h1{
+    font-size: 30px;
+   }
+   .image{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 80%; 
+    
+}
+.img-container{
+    
+    width: 100%;
+    margin: auto;
+   
+    
+
+}
+nav .fa-solid{
+    display: block;
+    font-size: 25px;
+}
+nav ul{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+}
+nav ul li{
+    display: block;
+    margin: 25px;
+}
+nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+   
+   .sub-title{
+    font-size: 40px;
+   }
+   #about{
+    padding:10px 5px 0 0;
+    width: 90%;
+ }
+   .about-col-1 , .about-col-2{
+    flex-basis: 100%;
+   
+   }
+   .about-col-1{
+    margin-bottom: 30px;
+    height: 50%;
+    
+   }
+   .about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 0px;
+    
+ }
+   
+   .about-col-2{
+    font-size: 14px;
+    width: 100%;
+   }
+   .skills{
+   
+    height: 300px;
+     margin-top: 0px;
+    padding-left: 20px;
+  }
+   .tab-links{
+    font-size: 20px;
+    margin-right: 20px;
+
+   }
+   .tab-contents{
+    margin-left: 30px;
+    font-size: 14px;
+ }
+ .tab-contents i{
+     font-size: 19px;
+ }
+ .tab-contents ul li{
+     list-style: none;
+     margin: 10px 0;
+ 
+ 
+ }
+ .tab-contents ul li span{
+     color: #b54769;
+     font-size: 14px;
+ 
+ }
+ .contact-left ,.contact-right{
+    flex-basis: 100%;
+ }
+ .copyright{
+    font-size: 14px;
+ }
+}
+
