@@ -31,6 +31,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    
+    
 }
 .font-effect-neon{
     width: 140px;
@@ -460,5 +462,11 @@ nav ul .fa-solid{
  .copyright{
     font-size: 14px;
  }
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
 
