@@ -8,6 +8,9 @@
     font-family:'Poppins',sans-serif ;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: #fff;
@@ -122,9 +125,15 @@ nav ul li a:hover::after{
 /* -------skills----------- */
 
 
- .skills{
+ #skills{
    height: 400px;
-    margin-top: 250px;
+   margin-top: 50px;
+   margin-bottom: 250px;
+   
+   padding-top: 50px;
+  
+   
+   
  }
  .tab-titles{
     display: flex;
@@ -416,7 +425,7 @@ nav ul .fa-solid{
     font-size: 14px;
     width: 100%;
    }
-   .skills{
+   #skills{
    
     height: 300px;
      margin-top: 0px;
